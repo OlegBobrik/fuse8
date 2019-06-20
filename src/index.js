@@ -8,7 +8,7 @@ import Card from './js/card';
 import List from './js/component.list';
 
 const DEFAULT_CARDS = 3;
-const SEE_MORE_CARDS = 2;
+const SEE_MORE_CARDS = 6;
 
 let pointer = 0;
 
@@ -41,6 +41,10 @@ const createElementCard = (cards, start, count) => {
     items.push(newCard);
   }
   renderCard(items);
+
+  if (pointer === cards.length) { 
+    seeMore.setAttribute(`disabled`, ``);
+  }
 }
 
 const renderCard = items => {

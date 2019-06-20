@@ -1,28 +1,155 @@
+.card {
+  width: 33%;
+  max-width: 379px;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  background-color: $grey;
+}
+
 .card__link {
   text-decoration: none;
   color: $black;
 }
 
+.card__picture {
+  margin-bottom: 20px;
+}
+
 .card__picture-container {
   position: relative;
+  font-size: 0;
+  line-height: 0;
+}
+
+.card__image {
+  width: 377px;
 }
 
 .card__feature {
   position: absolute;
-  bottom: 0;
   right: 0;
-
+  bottom: 0;
+  margin: 0;
+  padding: 8px 12px 6px 10px;
+  font-family: inherit;
   font-size: 12px;
   line-height: 16px;
   font-weight: bold;
-
+  text-align: center;
   color: #ffffff;
   background-color: $cyan;
+
+  &--support {
+    background-color: $orange;
+  }
+}
+
+.card__description {
+  padding: 0 18px;
+  font-family: inherit;
+}
+
+.card__title {
+  margin: 0;
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.card__address {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: normal;
+}
+
+.card__price-text {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.card__cost {
+  margin: 0;
+}
+
+.card__share {
+  margin: 0;
+  margin-bottom: 17px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 1135px) {
+  .card__title {
+    font-size: 18px;
+  }
+
+  .card__address,
+  .card__price-text,
+  .card__cost,
+  .card__share {
+    font-size: 14px;
+  }
+
+  .card__price-text {
+    margin-bottom: 7px;
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .card__address,
+  .card__price-text,
+  .card__cost,
+  .card__share {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card__description {
+    padding: 0 10px;
+  }
 }
 
 @media screen and (max-width: $tablet-width) {
+  .card {
+    width: 100%;
+    max-width: none;
+  }
+
   .card__link {
     display: flex;
     flex-direction: row;
+  }
+
+  .card__picture {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .card__description {
+    font-size: 14px;
+  }
+
+  .card__title {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .card__address {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .card__link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__image {
+    width: 100%;
   }
 }

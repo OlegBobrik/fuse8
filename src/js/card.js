@@ -8,7 +8,10 @@ export default class Card {
       height: data.picture.height,
       alt: data.picture.alt,
     };
-    this._feature = data.feature;
+    this._feature = {
+      text: data.feature.text,
+      isOtherColor: data.feature.isOtherColor,
+    };
     this._description = {
       title: data.description.title,
       address: data.description.address,
@@ -33,7 +36,11 @@ export default class Card {
     picture.setAttribute(`width`, this._picture.width);
     picture.setAttribute(`height`, this._picture.height);
 
-    feature.innerText = this._feature;
+    feature.innerText = this._feature.text;
+    
+    if (this._feature.isOtherColor) {
+      feature.classList.add('card__feature--support');
+    }
 
     cardDescription.querySelector(`.card__title`).innerText = this._description.title;
     cardDescription.querySelector(`.card__address`).innerText = this._description.address;
