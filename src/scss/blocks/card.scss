@@ -3,6 +3,23 @@
   color: $black;
 }
 
+.card__picture-container {
+  position: relative;
+}
+
+.card__feature {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: $cyan;
+}
+
 @media screen and (max-width: $tablet-width) {
   .card__link {
     display: flex;

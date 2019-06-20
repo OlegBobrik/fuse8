@@ -6,22 +6,21 @@
   justify-content: space-between;
 
   margin: 0;
-  padding: 0 40px;
+  padding: 0 50px;
   list-style: none;
   box-sizing: border-box;
 }
 
 .development__item {
-  // width: calc(100% / 3);
-  width: calc(33% - 11px);
+  width: 33%;
   max-width: 379px;
-  // margin: 0 11px;
   border: 1px solid $grey;
   box-sizing: border-box;
 }
 
 .development__title {
   margin: 0;
+  margin-bottom: 37px;
 
   font-size: 36px;
   line-height: 49px;

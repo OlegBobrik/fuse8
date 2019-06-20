@@ -8,7 +8,7 @@ import Card from './js/card';
 import List from './js/component.list';
 
 const DEFAULT_CARDS = 3;
-const SEE_MORE_CARDS = 6;
+const SEE_MORE_CARDS = 2;
 
 let pointer = 0;
 
