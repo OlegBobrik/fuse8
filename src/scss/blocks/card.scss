@@ -1,0 +1,11 @@
+.card__link {
+  text-decoration: none;
+  color: $black;
+}
+
+@media screen and (max-width: $tablet-width) {
+  .card__link {
+    display: flex;
+    flex-direction: row;
+  }
+}

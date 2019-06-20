@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "link": "#",
+    "picture": {
+      "src": "./img/1-BrunleesCourt.jpg",
+      "width": "377",
+      "height": "227",
+      "alt": "Brunlees Court"
+    },
+    "feature": "Independent living",
+    "description": {
+      "title": "Brunlees Court",
+      "address": "19-23 Cambridge Road, Southport",
+      "textprice": "New Properties for Sale from",
+      "cost": "£214,999",
+      "share": "Shared Ownership Available"
+    }
+  },
+  {
+    "id": 2,
+    "link": "#",
+    "picture": {
+      "src": "./img/2-CharlotteCourt.jpg",
+      "width": "377",
+      "height": "227",
+      "alt": "Charlotte Court"
+    },
+    "feature": "Independent living",
+    "description": {
+      "title": "Charlotte Court",
+      "address": "19-23 Cambridge Road, Southport",
+      "textprice": "New Properties for Sale from",
+      "cost": "£214,999",
+      "share": "Shared Ownership Available"
+    } 
+  },
+  {
+    "id": 3,
+    "link": "#",
+    "picture": {
+      "src": "./img/3-GroveCourt.jpg",
+      "width": "377",
+      "height": "227",
+      "alt": "Grove Court"
+    },
+    "feature": "Restaurant & Support available",
+    "description": {
+      "title": "Brunlees Court",
+      "address": "19-23 Cambridge Road, Southport",
+      "textprice": "New Properties for Sale from",
+      "cost": "£214,999",
+      "share": "Shared Ownership Available"
+    }
+  },
+  {
+    "id": 4,
+    "link": "#",
+    "picture": {
+      "src": "./img/1-BrunleesCourt.jpg",
+      "width": "377",
+      "height": "227",
+      "alt": "Brunlees Court"
+    },
+    "feature": "Independent living",
+    "description": {
+      "title": "Brunlees Court",
+      "address": "19-23 Cambridge Road, Southport",
+      "textprice": "New Properties for Sale from",
+      "cost": "£214,999",
+      "share": "Shared Ownership Available"
+    }
+  },
+  {
+    "id": 5,
+    "link": "#",
+    "picture": {
+      "src": "./img/2-CharlotteCourt.jpg",
+      "width": "377",
+      "height": "227",
+      "alt": "Charlotte Court"
+    },
+    "feature": "Independent living",
+    "description": {
+      "title": "Charlotte Court",
+      "address": "19-23 Cambridge Road, Southport",
+      "textprice": "New Properties for Sale from",
+      "cost": "£214,999",
+      "share": "Shared Ownership Available"
+    }
+  },
+  {
+    "id": 6,
+    "link": "#",
+    "picture": {
+      "src": "./img/3-GroveCourt.jpg",
+      "width": "377",
+      "height": "227",
+      "alt": "Grove Court"
+    },
+    "feature": "Restaurant & Support available",
+    "description": {
+      "title": "Brunlees Court",
+      "address": "19-23 Cambridge Road, Southport",
+      "textprice": "New Properties for Sale from",
+      "cost": "£214,999",
+      "share": "Shared Ownership Available"
+    }
+  },
+  {
+    "id": 7,
+    "link": "#",
+    "picture": {
+      "src": "./img/1-BrunleesCourt.jpg",
+      "width": "377",
+      "height": "227",
+      "alt": "Brunlees Court"
+    },
+    "feature": "Independent living",
+    "description": {
+      "title": "Brunlees Court",
+      "address": "19-23 Cambridge Road, Southport",
+      "textprice": "New Properties for Sale from",
+      "cost": "£214,999",
+      "share": "Shared Ownership Available"
+    }
+  },
+  {
+    "id": 8,
+    "link": "#",
+    "picture": {
+      "src": "./img/2-CharlotteCourt.jpg",
+      "width": "377",
+      "height": "227",
+      "alt": "Charlotte Court"
+    },
+    "feature": "Independent living",
+    "description": {
+      "title": "Charlotte Court",
+      "address": "19-23 Cambridge Road, Southport",
+      "textprice": "New Properties for Sale from",
+      "cost": "£214,999",
+      "share": "Shared Ownership Available"
+    }
+  },
+  {
+    "id": 9,
+    "link": "#",
+    "picture": {
+      "src": "./img/3-GroveCourt.jpg",
+      "width": "377",
+      "height": "227",
+      "alt": "Grove Court"
+    },
+    "feature": "Restaurant & Support available",
+    "description": {
+      "title": "Brunlees Court",
+      "address": "19-23 Cambridge Road, Southport",
+      "textprice": "New Properties for Sale from",
+      "cost": "£214,999",
+      "share": "Shared Ownership Available"
+    }
+  }
+]
