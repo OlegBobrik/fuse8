@@ -42,7 +42,7 @@ const createElementCard = (cards, start, count) => {
   }
   renderCard(items);
 
-  if (pointer === cards.length) { 
+  if (pointer === cards.length) {
     seeMore.setAttribute(`disabled`, ``);
   }
 }

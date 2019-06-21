@@ -10,7 +10,7 @@ export default class Card {
     };
     this._feature = {
       text: data.feature.text,
-      isOtherColor: data.feature.isOtherColor,
+      isAnotherColor: data.feature.isAnotherColor,
     };
     this._description = {
       title: data.description.title,
@@ -38,7 +38,7 @@ export default class Card {
 
     feature.innerText = this._feature.text;
     
-    if (this._feature.isOtherColor) {
+    if (this._feature.isAnotherColor) {
       feature.classList.add('card__feature--support');
     }
 

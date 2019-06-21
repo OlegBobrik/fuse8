@@ -40,6 +40,7 @@
   background-color: $cyan;
 
   &--support {
+    padding: 8px 7px 6px 10px;
     background-color: $orange;
   }
 }
@@ -80,6 +81,8 @@
   line-height: 19px;
 }
 
+// media at-rules
+
 @media screen and (max-width: 1135px) {
   .card__title {
     font-size: 18px;
@@ -106,14 +109,10 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  .card__description {
-    padding: 0 10px;
-  }
-}
-
 @media screen and (max-width: $tablet-width) {
   .card {
+    display: flex;   
+    align-items: center;
     width: 100%;
     max-width: none;
   }
@@ -124,18 +123,46 @@
   }
 
   .card__picture {
+    width: 50%;
     margin-bottom: 0;
+  }
+
+  .card__description {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .card__title {
+    font-size: 18px;
+  }
+
+  .card__address,
+  .card__price-text,
+  .card__cost,
+  .card__share {
+    font-size: 16px;
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 670px) {
   .card__description {
     font-size: 14px;
   }
 
   .card__title {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0;
+  }
+
+  .card__address,
+  .card__price-text,
+  .card__cost,
+  .card__share {
+    font-size: 14px;
   }
 
   .card__address {
@@ -144,12 +171,31 @@
 }
 
 @media screen and (max-width: 578px) {
+  .card {
+    min-width: 320px;
+  }
+
   .card__link {
     display: flex;
+    width: 100%;
     flex-direction: column;
+  }
+
+  .card__picture {
+    width: 100%;
   }
 
   .card__image {
     width: 100%;
+  }
+
+  .card__description {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+  .card {
+    min-width: 320px;
   }
 }

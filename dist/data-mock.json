@@ -10,7 +10,7 @@
     },
     "feature": {
       "text": "Independent living",
-      "isOtherColor": false
+      "isAnotherColor": false
     },
     "description": {
       "title": "Brunlees Court",
@@ -31,7 +31,7 @@
     },
     "feature": {
       "text": "Independent living",
-      "isOtherColor": false
+      "isAnotherColor": false
     },
     "description": {
       "title": "Charlotte Court",
@@ -52,7 +52,7 @@
     },
     "feature": {
       "text": "Restaurant & Support available",
-      "isOtherColor": true
+      "isAnotherColor": true
     },
     "description": {
       "title": "Grove Court",
@@ -73,7 +73,7 @@
     },
     "feature": {
       "text": "Independent living",
-      "isOtherColor": false
+      "isAnotherColor": false
     },
     "description": {
       "title": "Brunlees Court",
@@ -94,7 +94,7 @@
     },
     "feature": {
       "text": "Independent living",
-      "isOtherColor": false
+      "isAnotherColor": false
     },
     "description": {
       "title": "Charlotte Court",
@@ -115,7 +115,7 @@
     },
     "feature": {
       "text": "Restaurant & Support available",
-      "isOtherColor": true
+      "isAnotherColor": true
     },
     "description": {
       "title": "Grove Court",
@@ -136,7 +136,7 @@
     },
     "feature": {
       "text": "Independent living",
-      "isOtherColor": false
+      "isAnotherColor": false
     },
     "description": {
       "title": "Brunlees Court",
@@ -157,7 +157,7 @@
     },
     "feature": {
       "text": "Independent living",
-      "isOtherColor": false
+      "isAnotherColor": false
     },
     "description": {
       "title": "Charlotte Court",
@@ -178,7 +178,7 @@
     },
     "feature": {
       "text": "Restaurant & Support available",
-      "isOtherColor": true
+      "isAnotherColor": true
     },
     "description": {
       "title": "Grove Court",
